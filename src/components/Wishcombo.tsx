@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { SparklesCore } from "./ui/sparkles";
 
@@ -6,13 +5,15 @@ const Wishcombo = () => {
   const words = [
     {
       text: "Happy",
+      className: "dheader",
     },
     {
       text: "Birthday",
+      className: "dheader",
     },
     {
       text: "SHALOM",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-blue-500 dark:text-blue-500 dheader",
     },
   ];
 

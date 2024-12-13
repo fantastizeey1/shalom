@@ -26,7 +26,7 @@ const Hero = () => {
 
   // Mousemove tilt animation
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: { clientX: any; clientY: any }) => {
       const { clientX, clientY } = e;
       const tiltX = (clientX / window.innerWidth - 0.5) * 10;
       const tiltY = (clientY / window.innerHeight - 0.5) * 10;
