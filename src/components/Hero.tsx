@@ -70,7 +70,7 @@ const Hero = () => {
     >
       <BackgroundBeamsWithCollision>
         <BackgroundLines className="bg-black h-full">
-          <div className="flex flex-col items-center justify-center h-full py-8 space-y-6">
+          <div className="flex flex-col  items-center justify-center h-full py-8 space-y-6">
             <Wishcombo />
           </div>
         </BackgroundLines>
