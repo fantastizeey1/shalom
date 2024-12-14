@@ -128,7 +128,6 @@ const NavBar: React.FC = () => {
                 className="hidden"
                 src="/Happyb.mp3"
                 loop
-                muted
               />
 
               {[1, 2, 3, 4].map((bar) => (
