@@ -21,7 +21,7 @@ const images = [
 
 const Galery = () => {
   return (
-    <section id="gallery">
+    <section id="gallery " className="h-[200%]">
       <ParallaxScroll images={images} className="custom-class" />
     </section>
   );

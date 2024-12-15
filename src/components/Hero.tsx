@@ -66,7 +66,8 @@ const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="text-pink-600 bg-black min-h-screen flex items-center justify-center px-4 sm:px-6"
+      className="text-pink-600 bg-black min-h-screen flex items-center justify-center px-4 sm:px-6 "
+      id="home"
     >
       <BackgroundBeamsWithCollision>
         <BackgroundLines className="bg-black h-full">

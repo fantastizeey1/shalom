@@ -13,7 +13,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { name: "Nexus", icon: <AiOutlineHome /> },
+  { name: "Home", icon: <AiOutlineHome /> },
   { name: "Features", icon: <FaRegLightbulb /> },
   { name: "Story", icon: <MdHistoryEdu /> },
   { name: "About", icon: <AiOutlineInfoCircle /> },

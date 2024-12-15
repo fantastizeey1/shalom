@@ -18,7 +18,7 @@ const Wishcombo = () => {
   ];
 
   return (
-    <div className="text-pink-500 flex justify-center items-center flex-col w-full max-w-[20rem] sm:max-w-[30rem] md:max-w-[40rem]">
+    <div className="text-pink-500 flex justify-center h-[80%] items-center flex-col w-full max-w-[20rem] sm:max-w-[30rem] md:max-w-[40rem]">
       <TypewriterEffectSmooth words={words} />
       <div className="w-full h-32 sm:h-40 relative">
         {/* Gradients */}
