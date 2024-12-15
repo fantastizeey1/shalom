@@ -79,9 +79,10 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({ products }) => {
   };
 
   return (
-    <div
+    <section
+      id="story"
       ref={ref}
-      className="h-[380vh] py-40 overflow-hidden relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className=" h-[220vh] lg:h-[380vh]  md:py-40 overflow-hidden relative flex flex-col self-auto md:[perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -134,7 +135,7 @@ export const HeroParallax: React.FC<HeroParallaxProps> = ({ products }) => {
           ))}
         </motion.div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 

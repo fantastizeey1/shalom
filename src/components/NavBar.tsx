@@ -16,7 +16,7 @@ const navItems: NavItem[] = [
   { name: "Home", icon: <AiOutlineHome /> },
   { name: "Features", icon: <FaRegLightbulb /> },
   { name: "Story", icon: <MdHistoryEdu /> },
-  { name: "About", icon: <AiOutlineInfoCircle /> },
+  { name: "wishes", icon: <AiOutlineInfoCircle /> },
   { name: "Contact", icon: <FiPhoneCall /> },
 ];
 
