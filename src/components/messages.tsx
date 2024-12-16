@@ -18,7 +18,7 @@ export function Messages() {
       quote:
         "Happy Birthday to someone truly extraordinary! Here’s to celebrating you, the love you share so freely, the kindness you extend effortlessly, and the happiness that I hope surrounds you today and all the days that follow. Remember, you are cherished beyond measure and your uniqueness adds so much value to the lives of those fortunate enough to call you a friend. You are deeply valued, and I hope this year brings you everything your heart desires.",
       name: "Sam",
-      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "sam.svg",
     },
     {
       quote:
@@ -26,12 +26,6 @@ export function Messages() {
       name: "Ogechi",
       src: "/Ogechi.svg",
     },
-    // {
-    //   quote:
-    //     "We want to felicitate with our own, our sweet daughter Shallybaby💕 on this auspicious day that the Lord has made… we wish her more wins & may lines continue to fall in pleasant places for her as she ages gracefully in good health & prosperity 🙏. God bless you & we love 💕 you very much.",
-    //   name: "Mum and David",
-    //   src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    // },
     // {
     //   quote:
     //     "We want to felicitate with our own, our sweet daughter Shallybaby💕 on this auspicious day that the Lord has made… we wish her more wins & may lines continue to fall in pleasant places for her as she ages gracefully in good health & prosperity 🙏. God bless you & we love 💕 you very much.",
