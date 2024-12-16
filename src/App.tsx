@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import { NewHero } from "./components/NewHero";
 import { World } from "./components/World";
+import { Messages } from "./components/messages";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <NewHero />
       <World />
+      <Messages />
       {/* <Gallery />
       <Galery /> */}
     </main>

@@ -11,6 +11,9 @@ importers:
       '@gsap/react':
         specifier: ^2.1.1
         version: 2.1.1
+      '@tabler/icons-react':
+        specifier: ^3.24.0
+        version: 3.24.0(react@18.3.1)
       '@tsparticles/engine':
         specifier: ^3.7.1
         version: 3.7.1
@@ -538,6 +541,14 @@ packages:
     resolution: {integrity: sha512-ZvK2jBafvttJjoIdKm/Q/Bh7IJ1Ose9IBOwpOXcOvW3ikGTQGmKDgxTC6oCAzW6PynbkKP8+um1du81XJHZ0JA==}
     cpu: [x64]
     os: [win32]
+
+  '@tabler/icons-react@3.24.0':
+    resolution: {integrity: sha512-m9c7TmlcDmKqvZAasG5rv1YvazZDrVEhNdNFa2d1Bzotc0dh+iceFdiZCEcYPDb5UcRyLAMvOaOC9y/5sfMMWw==}
+    peerDependencies:
+      react: '>= 16'
+
+  '@tabler/icons@3.24.0':
+    resolution: {integrity: sha512-qNis9e90QcdxAGV3wNIeX0Ba2R7ktm0cnqOToKHJfC2kj3fvJwEVLsw63K0/fm7NW8rSZjDSTQRmMnSg8g/wrg==}
 
   '@tsparticles/basic@3.7.1':
     resolution: {integrity: sha512-oJMJ3qzYUROYaOEsaFXkVynxT2OTWBXbQ9MNc1bJi/bVc1VOU44VN7X/KmiZjD+w1U+Qalk6BeVvDRwpFshblw==}
@@ -2087,6 +2098,13 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.28.1':
     optional: true
+
+  '@tabler/icons-react@3.24.0(react@18.3.1)':
+    dependencies:
+      '@tabler/icons': 3.24.0
+      react: 18.3.1
+
+  '@tabler/icons@3.24.0': {}
 
   '@tsparticles/basic@3.7.1':
     dependencies:
