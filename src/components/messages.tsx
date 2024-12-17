@@ -4,6 +4,24 @@ export function Messages() {
   const testimonials = [
     {
       quote:
+        "This birthday, i would have loved to present a bowI of palm-oil stew with plenty assorted Meat but since this is a surprise message, I wish you abundant happiness and love. May all your dreams turn into reality and may lady luck visit your home today. May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best. Happy birthday. Happy birthday to one of the sweetest person I’ve ever known. Happy Birthday SHALOM. ",
+      name: "Paul",
+      src: "/Paul.svg",
+    },
+    {
+      quote:
+        "As your uncle I’ve seen you grow and I’m proud of what you have become. Happy Birthday to an amazing niece! May today and every day be filled with every blessing and grace. You make the world more beautiful just by being in it. Life’s what you make it, and I want to make yours as wonderful as possible. I hope you get everything you wish for in the year ahead. Happy birthday, my darling niece, I love you!",
+      name: "Mark Owi",
+      src: "/Owi.svg",
+    },
+    {
+      quote:
+        "Mummy: I wish you many more years, long life, prosperity and I pray that God grant you all your heart desires. Scolo: I wish you many more years,more knowledge,more wisdom, More of the good things that life has to offer and Amen to your secret prayers , I pray you continue to grow from glory to more glory  HBD sis. Adebo: I wish you a car 🤣😂",
+      name: "Aunty Faith, Scolo & Adebo",
+      src: "/Faith.svg",
+    },
+    {
+      quote:
         "We want to felicitate with our own, our sweet daughter Shallybaby💕 on this auspicious day that the Lord has made… we wish her more wins & may lines continue to fall in pleasant places for her as she ages gracefully in good health & prosperity 🙏. God bless you & we love 💕 you very much.",
       name: "Mum and David",
       src: "/mum.svg",

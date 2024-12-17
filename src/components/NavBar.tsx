@@ -127,7 +127,7 @@ const NavBar: React.FC = () => {
               <audio
                 ref={audioElementRef}
                 className="hidden"
-                src="/Happyb.mp3"
+                src="/gratitude.mp3"
                 loop
               />
 
