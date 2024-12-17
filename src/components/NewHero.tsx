@@ -1,7 +1,11 @@
 import { HeroParallax } from "@/components/ui/hero-parallax";
 
 export function NewHero() {
-  return <HeroParallax products={products} />;
+  return (
+    <section id="Features">
+      <HeroParallax products={products} />
+    </section>
+  );
 }
 export const products = [
   {

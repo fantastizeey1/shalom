@@ -1,5 +1,3 @@
-// import Galery from "./components/Galery";
-// import Gallery from "./components/Gallery";
 import { useEffect } from "react";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -19,8 +17,6 @@ function App() {
       <NewHero />
       <World />
       <Messages />
-      {/* <Gallery />
-      <Galery /> */}
     </main>
   );
 }

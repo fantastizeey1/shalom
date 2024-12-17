@@ -2,10 +2,11 @@ import clsx from "clsx";
 import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
-import { AiOutlineHome, AiOutlineInfoCircle } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 import { FaRegLightbulb } from "react-icons/fa";
-import { FiPhoneCall } from "react-icons/fi";
 import { MdHistoryEdu } from "react-icons/md";
+import { GiPartyPopper } from "react-icons/gi";
+import { BiMessageRoundedDots } from "react-icons/bi";
 
 interface NavItem {
   name: string;
@@ -16,8 +17,8 @@ const navItems: NavItem[] = [
   { name: "Home", icon: <AiOutlineHome /> },
   { name: "Features", icon: <FaRegLightbulb /> },
   { name: "Story", icon: <MdHistoryEdu /> },
-  { name: "wishes", icon: <AiOutlineInfoCircle /> },
-  { name: "Contact", icon: <FiPhoneCall /> },
+  { name: "Wishes", icon: <GiPartyPopper /> },
+  { name: "Messages", icon: <BiMessageRoundedDots /> },
 ];
 
 const NavBar: React.FC = () => {

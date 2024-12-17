@@ -31,7 +31,7 @@ export const AnimatedTestimonials = ({
 
   useEffect(() => {
     if (autoplay) {
-      const interval = setInterval(handleNext, 5000);
+      const interval = setInterval(handleNext, 15000);
       return () => clearInterval(interval);
     }
   }, [autoplay]);
@@ -40,10 +40,10 @@ export const AnimatedTestimonials = ({
     return Math.floor(Math.random() * 21) - 10;
   };
   return (
-    <div className="max-w-sm md:max-w-4xl mx-auto antialiased  font-sans px-4 md:px-8 lg:px-12 py-20">
-      <div className="relative grid grid-cols-1 md:grid-cols-2  gap-20">
+    <div className="max-w-sm md:max-w-5xl mx-auto antialiased  font-sans px-4 md:px-8 lg:px-12 py-20">
+      <div className="relative grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-20">
         <div>
-          <div className="relative h-80 w-full">
+          <div className="relative w-[400px] h-[450px] rounded-3xl  flex items-center justify-center">
             <AnimatePresence>
               {testimonials.map((testimonial, index) => (
                 <motion.div
@@ -71,7 +71,7 @@ export const AnimatedTestimonials = ({
                     rotate: randomRotateY(),
                   }}
                   transition={{
-                    duration: 0.4,
+                    duration: 0.5,
                     ease: "easeInOut",
                   }}
                   className="absolute inset-0 origin-bottom"
