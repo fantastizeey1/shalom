@@ -208,6 +208,13 @@ export function Messages() {
 
       src: "/seyi.svg",
     },
+    {
+      quote:
+        "Happy Birthday Shalom baby I wish you many happy returns. May you celebrate more years in good  health ,wealth and happiness. May you fulfil destiny. May the Lord grant you your heart desires. After God's will shall you find a husband after your heart in Jesus name amen ❤",
+      name: "Princess Bola",
+
+      src: "/Princess Bola.svg",
+    },
   ];
 
   return (
